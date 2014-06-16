@@ -3,11 +3,13 @@
  * Allows calculations on both total months or total years in term
  * Down payment may be provided in either a percentage or lump sum payment (dollar amount)
  
- ![Screenshot](https://raw.github.com/kylephillips/homenote/example/images/image.jpg)
+ ![Screenshot](https://raw.githubusercontent.com/kylephillips/homenote/master/example/images/screenshot.png)
 
 
 ##How to use
 Include jQuery and homenote.js in your layout and target the container the form will appear in with homenote().
+
+
 ```javascript
 <script src="path/to/jquery.min.js"></script>
 <script src="path/to/jquery.homenote.min.js"></script>
@@ -15,6 +17,8 @@ $(function(){
   $('#div').homenote();
 });
 ```
+
+
 ###Pass it some options:
 | Options       | Type           | Default  |  Description
 | ------------- |:-------------:| -----|:---------:
