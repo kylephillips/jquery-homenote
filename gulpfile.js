@@ -4,8 +4,8 @@ var jshint = require('gulp-jshint');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 
-var js_source = 'js/lib/jquery.homenote.js';
-var js_compiled = 'js/';
+var js_source = 'js/jquery.homenote.js';
+var js_compiled = 'js';
 
 /**
 * Minify the JS
