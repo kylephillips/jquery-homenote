@@ -35,7 +35,7 @@
 		});
 
 		/**
-		* Converts down between percentate and lump sum
+		* Converts down between percentate and lump sum 
 		*/
 		function convertDownPayment()
 		{
@@ -56,11 +56,7 @@
 		function convertTermLength()
 		{
 			var term = $('#term').val();
-			if ( $('input:radio[name="termtype"]:checked').val() === 'months' ){
-				return term * 12;
-			} else {
-				return term / 12;
-			}
+			return ( $('input:radio[name="termtype"]:checked').val() === 'months' ) ? term * 12 : term / 12;
 		}
 
 		/**
@@ -87,11 +83,7 @@
 		function paymentsLeft()
 		{
 			var term = $('#term').val();
-			if ( $('input:radio[name="termtype"]:checked').val() === 'months' ){
-				return term;
-			} else {
-				return term * 12;
-			}
+			return ( $('input:radio[name="termtype"]:checked').val() === 'months' ) ? term : term * 12;
 		}
 
 
