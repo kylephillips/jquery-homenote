@@ -1,5 +1,7 @@
 #HomeNote.js - a simple jQuery mortgage calculator
 
+##[View it on Codepen](http://codepen.io/kylephillips/pen/YPXzzq)
+
  * Allows calculations on both total months or total years in term
  * Down payment may be provided in either a percentage or lump sum payment (dollar amount)
  
